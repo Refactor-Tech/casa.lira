@@ -1,0 +1,66 @@
+{
+  "title": "Escolha a composição da vitrine",
+  "question": "A identidade Casa Lira já está aprovada. Qual composição deve orientar a primeira tela do catálogo?",
+  "options": [
+    {
+      "id": "comp-a",
+      "label": "Editorial e coleção",
+      "thesis": "Uma abertura editorial curta divide a tela com uma coleção de seis Produtos.",
+      "palette": [
+        "#E7E0D1",
+        "#283D35",
+        "#D17A4D",
+        "#FAF7EF"
+      ],
+      "materials": [
+        "reboco mineral",
+        "madeira escura",
+        "fotografia de objeto"
+      ],
+      "viewport": "Texto curto à esquerda; grade de três colunas com imagens e Preços já visíveis.",
+      "risk": "O texto compete com os Produtos se crescer além da referência.",
+      "comp": ".impeccable/mocks/comp-a.png"
+    },
+    {
+      "id": "comp-b",
+      "label": "Prateleira contínua",
+      "thesis": "Os Produtos ocupam duas prateleiras arquitetônicas, com etiqueta de nome e Preço sob cada objeto.",
+      "palette": [
+        "#E7E0D1",
+        "#283D35",
+        "#D17A4D",
+        "#FAF7EF"
+      ],
+      "materials": [
+        "reboco mineral",
+        "madeira escura",
+        "fotografia de objeto"
+      ],
+      "viewport": "Quatro Produtos por linha, sem bloco editorial; a coleção preenche a primeira tela.",
+      "risk": "A foto precisa sustentar a estrutura sem transformar a listagem em cenário rígido.",
+      "comp": ".impeccable/mocks/comp-b.png"
+    },
+    {
+      "id": "comp-c",
+      "label": "Mostruário assimétrico",
+      "thesis": "Um Produto abre a coleção em escala maior; os demais seguem em nichos de comparação.",
+      "palette": [
+        "#E7E0D1",
+        "#283D35",
+        "#D17A4D",
+        "#FAF7EF"
+      ],
+      "materials": [
+        "reboco mineral",
+        "madeira escura",
+        "fotografia de objeto"
+      ],
+      "viewport": "Um objeto grande à esquerda e cinco menores à direita, todos com nome e Preço.",
+      "risk": "O destaque pode sugerir preferência que o catálogo não definiu; ícones e textos ilustrativos da imagem não entram no produto.",
+      "comp": ".impeccable/mocks/comp-c.png"
+    }
+  ],
+  "reroll": false,
+  "canon": false,
+  "steer": false
+}

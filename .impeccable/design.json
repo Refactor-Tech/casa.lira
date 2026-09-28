@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-28T15:33:07.431797+00:00",
+  "title": "Design System: Casa Lira",
+  "extensions": {
+    "colorMeta": {
+      "forest": {
+        "role": "primary",
+        "displayName": "Verde florestal",
+        "canonical": "#254734",
+        "tonalRamp": [
+          "#1a3225",
+          "#2c543d",
+          "#3d7556",
+          "#4f976e",
+          "#68b088",
+          "#94c7aa",
+          "#c3e0cf",
+          "#eef6f2"
+        ]
+      },
+      "forest-hover": {
+        "role": "primary",
+        "displayName": "Verde de hover",
+        "canonical": "#183c29",
+        "tonalRamp": [
+          "#163725",
+          "#245b3e",
+          "#338057",
+          "#42a470",
+          "#5bbd8a",
+          "#8ad0ab",
+          "#bde5d0",
+          "#edf8f2"
+        ]
+      },
+      "forest-link": {
+        "role": "primary",
+        "displayName": "Verde de link",
+        "canonical": "#17452d",
+        "tonalRamp": [
+          "#133925",
+          "#20603e",
+          "#2d8657",
+          "#39ac70",
+          "#53c68a",
+          "#85d6ac",
+          "#bae8d0",
+          "#ecf9f2"
+        ]
+      },
+      "warm-ink": {
+        "role": "neutral",
+        "displayName": "Tinta quente",
+        "canonical": "#251d14",
+        "tonalRamp": [
+          "#32271b",
+          "#53412d",
+          "#745b3f",
+          "#957551",
+          "#ae8e6a",
+          "#c6af95",
+          "#dfd2c3",
+          "#f6f2ee"
+        ]
+      },
+      "mineral": {
+        "role": "neutral",
+        "displayName": "Pedra mineral",
+        "canonical": "#ded6c8",
+        "tonalRamp": [
+          "#30291d",
+          "#504430",
+          "#705f43",
+          "#8f7b56",
+          "#a99470",
+          "#c2b399",
+          "#ddd4c6",
+          "#f5f3ef"
+        ]
+      },
+      "header-linen": {
+        "role": "neutral",
+        "displayName": "Linho de cabeçalho",
+        "canonical": "#e8ded0",
+        "tonalRamp": [
+          "#332819",
+          "#56432a",
+          "#785e3b",
+          "#9a794b",
+          "#b49365",
+          "#c9b291",
+          "#e1d4c1",
+          "#f7f3ee"
+        ]
+      },
+      "shelf-mat": {
+        "role": "neutral",
+        "displayName": "Esteira da prateleira",
+        "canonical": "#b9aa94",
+        "tonalRamp": [
+          "#2e281e",
+          "#4d4232",
+          "#6c5d47",
+          "#8b775b",
+          "#a49174",
+          "#beb19c",
+          "#dbd3c8",
+          "#f5f3f0"
+        ]
+      },
+      "form-paper": {
+        "role": "neutral",
+        "displayName": "Papel de formulário",
+        "canonical": "#e7dfd0",
+        "tonalRamp": [
+          "#332a1a",
+          "#54462b",
+          "#76623c",
+          "#987e4e",
+          "#b19867",
+          "#c8b593",
+          "#e0d6c2",
+          "#f6f4ee"
+        ]
+      },
+      "input-paper": {
+        "role": "neutral",
+        "displayName": "Papel de campo",
+        "canonical": "#f7f1e8",
+        "tonalRamp": [
+          "#392a14",
+          "#5f4621",
+          "#84622e",
+          "#aa7e3b",
+          "#c49755",
+          "#d5b586",
+          "#e7d6bb",
+          "#f8f3ec"
+        ]
+      },
+      "ivory": {
+        "role": "neutral",
+        "displayName": "Marfim",
+        "canonical": "#fffaf0",
+        "tonalRamp": [
+          "#4c3300",
+          "#805500",
+          "#b27700",
+          "#e69900",
+          "#ffb21a",
+          "#ffc95c",
+          "#ffe0a3",
+          "#fff6e5"
+        ]
+      },
+      "soft-rule": {
+        "role": "neutral",
+        "displayName": "Regra suave",
+        "canonical": "#b4a998",
+        "tonalRamp": [
+          "#2c2820",
+          "#4a4236",
+          "#675c4b",
+          "#857761",
+          "#9e907a",
+          "#bab0a1",
+          "#d8d3ca",
+          "#f4f3f0"
+        ]
+      },
+      "clay-error": {
+        "role": "tertiary",
+        "displayName": "Argila de erro",
+        "canonical": "#8c3023",
+        "tonalRamp": [
+          "#3d150f",
+          "#662319",
+          "#8f3124",
+          "#b83f2e",
+          "#d15847",
+          "#de897c",
+          "#edbcb6",
+          "#faeceb"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Títulos do painel e do formulário."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Nome na página de produto."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Nomes de produtos em coleção e lista."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Descrição de produto."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Controles e informações auxiliares."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "product-photo-hover",
+        "value": "transform 450ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "Aproximação sutil da imagem do produto ao passar o cursor."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "admin-compact",
+        "value": "1050px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "narrow-mobile",
+        "value": "420px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Ação principal",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Salva ou inicia a ação administrativa principal.",
+      "html": "<button class=\"ds-button-primary\">Salvar alterações</button>",
+      "css": ".ds-button-primary{min-height:48px;padding:12px 22px;border:1px solid #254734;border-radius:0;background:#254734;color:#fffaf0;font:600 14px/1.2 Arial,sans-serif;cursor:pointer}.ds-button-primary:hover{background:#183c29}.ds-button-primary:focus-visible{outline:3px solid #31533e;outline-offset:3px}"
+    },
+    {
+      "name": "Ação secundária",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Ação administrativa de apoio.",
+      "html": "<button class=\"ds-button-secondary\">Publicar produto</button>",
+      "css": ".ds-button-secondary{min-height:48px;padding:12px 22px;border:1px solid #254734;border-radius:0;background:transparent;color:#254734;font:600 14px/1.2 Arial,sans-serif;cursor:pointer}.ds-button-secondary:hover{background:#d2dbc9}.ds-button-secondary:focus-visible{outline:3px solid #31533e;outline-offset:3px}"
+    },
+    {
+      "name": "Campo de texto",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Entrada de dados no formulário de produto.",
+      "html": "<label class=\"ds-field\"><span>Título</span><input placeholder=\"Nome do produto\"></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:8px;color:#251d14;font:18px 'Casa Lira Serif',Georgia,serif}.ds-field input{min-height:48px;padding:12px 14px;border:1px solid #897c6b;border-radius:0;background:#f7f1e8;color:#251d14;font:16px Arial,sans-serif}.ds-field input:focus-visible{outline:3px solid #31533e;outline-offset:3px}.ds-field input[aria-invalid=true]{border-color:#a13f30}"
+    },
+    {
+      "name": "Navegação",
+      "kind": "nav",
+      "description": "Marca e destinos principais no cabeçalho.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-brand\">Casa Lira</span><a href=\"#\">Catálogo</a><a href=\"#\">Painel</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px 3.6%;background:#e8ded0;color:#251d14;font:17px 'Casa Lira Serif',Georgia,serif}.ds-brand{font-size:clamp(30px,2.1vw,37px);letter-spacing:-.025em;line-height:1}.ds-nav a{color:inherit;text-decoration:none;text-underline-offset:5px}.ds-nav a:hover,.ds-nav a:focus-visible{text-decoration:underline}.ds-nav a:focus-visible{outline:3px solid #31533e;outline-offset:3px}"
+    },
+    {
+      "name": "Nicho de produto",
+      "kind": "card",
+      "description": "Objeto grande com nome e preço contíguos.",
+      "html": "<a class=\"ds-product\" href=\"#\"><div class=\"ds-product-image\"></div><div class=\"ds-product-caption\"><span>Vaso de cerâmica</span><span>R$ 189,00</span></div></a>",
+      "css": ".ds-product{display:flex;flex-direction:column;color:#251d14;text-decoration:none;background:#ded6c8;font:17px/1.15 'Casa Lira Serif',Georgia,serif}.ds-product-image{height:180px;overflow:hidden;background:#b9aa94}.ds-product-caption{display:flex;flex-direction:column;gap:2px;min-height:78px;padding:12px 9% 20px;background:#ded6c8}.ds-product-caption span:last-child{font-size:18px;font-variant-numeric:tabular-nums}.ds-product:hover .ds-product-caption span:first-child{text-decoration:underline;text-underline-offset:3px}.ds-product:focus-visible{outline:3px solid #31533e;outline-offset:3px}"
+    },
+    {
+      "name": "Estado publicado",
+      "kind": "chip",
+      "refersTo": "status-published",
+      "description": "Situação publicada da linha administrativa.",
+      "html": "<span class=\"ds-status-published\">Publicado</span>",
+      "css": ".ds-status-published{display:inline-flex;width:fit-content;padding:7px 10px;border-radius:100px;background:#cbddc7;color:#17422b;font:600 12px Arial,sans-serif}"
+    },
+    {
+      "name": "Estado rascunho",
+      "kind": "chip",
+      "refersTo": "status-draft",
+      "description": "Situação rascunho da linha administrativa.",
+      "html": "<span class=\"ds-status-draft\">Rascunho</span>",
+      "css": ".ds-status-draft{display:inline-flex;width:fit-content;padding:7px 10px;border-radius:100px;background:#d8cec0;color:#54402d;font:600 12px Arial,sans-serif}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Showroom doméstico",
+    "overview": "Casa Lira apresenta objetos fictícios como uma coleção em prateleiras contínuas. Superfícies minerais quentes, faixas de madeira fotografada e nichos verticais dão presença aos objetos. O texto fica próximo ao produto e preserva a comparação de nome e preço.\n\nO painel administrativo conserva a mesma temperatura de cor e tipografia, mas troca a composição de prateleiras por linhas e campos diretos. O caráter de demonstração permanece explícito na navegação e nas descrições dos produtos.",
+    "keyCharacteristics": [
+      "Matéria quente e discreta, com verde profundo reservado a ações e links.",
+      "Serifada regular nos títulos e na leitura; Arial nos controles e metadados pequenos.",
+      "Produtos grandes em uma grade contínua, sem caixas isoladas.",
+      "Profundidade fotográfica nas prateleiras; interfaces planas no painel."
+    ],
+    "rules": [
+      {
+        "name": "The Material Ground Rule",
+        "body": "A base mineral e os planos de linho sustentam as imagens; o verde identifica ação, não preenche grandes superfícies do catálogo.",
+        "section": "colors"
+      },
+      {
+        "name": "The Quiet Serif Rule",
+        "body": "Hierarquia vem de escala e espaço; títulos usam o peso regular da fonte carregada.",
+        "section": "typography"
+      },
+      {
+        "name": "The Photographic Depth Rule",
+        "body": "A prateleira pode ter profundidade dentro das imagens e das bordas ilustradas; controles e linhas de trabalho permanecem planos.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do manter nome e preço próximos da imagem para permitir comparação imediata.",
+      "Do reservar a borda ilustrada para a continuidade das prateleiras da coleção.",
+      "Do usar controles verdes retangulares e texto de apoio legível nas tarefas administrativas.",
+      "Do identificar Casa Lira e seus produtos como demonstração fictícia onde o contexto exigir."
+    ],
+    "donts": [
+      "Don't aplicar sombras de cartão aos nichos, linhas ou formulário.",
+      "Don't substituir a serifada regular por um display de peso alto nos títulos.",
+      "Don't usar a cápsula de estado como forma dos botões ou campos."
+    ]
+  }
+}

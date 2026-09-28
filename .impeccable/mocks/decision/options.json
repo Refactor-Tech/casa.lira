@@ -1,0 +1,229 @@
+{
+  "title": "Escolha a identidade visual da Loja",
+  "question": "Qual direção deve orientar a consulta pública e o painel? Você pode escolher outra opção ou pedir uma nova rodada.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "Fichário de objetos",
+      "kicker": "THE ROLL",
+      "lineage": "fichas de acervo e registros de loja de bairro",
+      "thesis": "Cada Produto tem a clareza de uma ficha física, com foto, nome e preço à vista.",
+      "palette": [
+        "#F3EADB",
+        "#172823",
+        "#B84732",
+        "#7C8D77"
+      ],
+      "materials": [
+        "papel sem revestimento",
+        "carimbo de tinta",
+        "fotografia de objeto"
+      ],
+      "viewport": "Um índice editorial de 12 objetos começa na primeira tela; fotos grandes convivem com números discretos, títulos e preços legíveis.",
+      "risk": "Se as linhas e carimbos pesarem demais, a vitrine pode parecer um arquivo em vez de uma loja.",
+      "raised": [
+        {
+          "from": "Quadro de partidas",
+          "raise": "Estados e mudanças ganham hierarquia imediata, sem depender só de cor."
+        },
+        {
+          "from": "Capa ajustável",
+          "raise": "Publicar e recolher um Produto têm uma transição única e compreensível."
+        },
+        {
+          "from": "Nuvem iridescente",
+          "raise": "A cor de destaque fica concentrada nas ações e nos estados."
+        },
+        {
+          "from": "Console modular",
+          "raise": "Controles ativos se distinguem com clareza em toda a interface."
+        },
+        {
+          "from": "Capa de catálogo",
+          "raise": "O identificador do Produto mantém o mesmo papel em todas as telas."
+        }
+      ],
+      "comp": ".impeccable/mocks/decision/assigned.png"
+    },
+    {
+      "id": "model-pick",
+      "label": "Showroom doméstico",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "mostruários de móveis e arquitetura de interiores",
+      "thesis": "Os objetos ocupam um showroom calmo; etiquetas precisas tornam a comparação fácil.",
+      "palette": [
+        "#E7E0D1",
+        "#283D35",
+        "#D17A4D",
+        "#FAF7EF"
+      ],
+      "materials": [
+        "reboco mineral",
+        "madeira escura",
+        "fotografia de produto"
+      ],
+      "viewport": "Produtos e preços aparecem de imediato em uma prateleira modular, com fotos em escala e etiquetas curtas.",
+      "risk": "É uma linguagem familiar para lojas de decoração e pode parecer genérica se a composição perder precisão.",
+      "comp": ".impeccable/mocks/decision/model-pick.png"
+    },
+    {
+      "id": "challenger-depot",
+      "label": "Faixas de tecido",
+      "verdict": "competitive",
+      "lineage": "cortina de destinos feita de lona tingida",
+      "thesis": "Uma sequência de faixas têxteis organiza os Produtos como linhas de um mostruário vivo.",
+      "palette": [
+        "#173A31",
+        "#E4C839",
+        "#ECE3CF"
+      ],
+      "materials": [
+        "lona verde",
+        "costura aparente",
+        "fotografia sobre tecido"
+      ],
+      "viewport": "Produtos, preços e imagens aparecem em linhas largas sobre a lona, com um item destacado na janela fixa.",
+      "case": "O tecido aproxima a Loja do universo doméstico e cria uma lista forte; as faixas ficam menos rápidas de comparar que o fichário.",
+      "risk": "A gramática de painel de transporte pode dominar a leitura dos objetos.",
+      "comp": ".impeccable/mocks/decision/challenger-depot.png",
+      "hero": "https://impeccable.style/worlds/cards/operate-c-depot-blind-courses-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/operate-c-depot-blind-courses.webp"
+    },
+    {
+      "id": "challenger-flap",
+      "label": "Quadro de partidas",
+      "verdict": "declined",
+      "lineage": "painéis mecânicos de estação",
+      "thesis": "A listagem funciona como linhas de um quadro de destinos.",
+      "palette": [
+        "#111315",
+        "#F2EEE5",
+        "#D59A3B"
+      ],
+      "materials": [
+        "palhetas pintadas",
+        "metal escovado"
+      ],
+      "viewport": "Nomes e preços em colunas fixas, com pouca área para fotografia.",
+      "case": "A tabela favorece comparação, mas perde a presença visual dos objetos e sugere atualização em tempo real inexistente.",
+      "risk": "Parece um painel de transporte, não uma Loja de objetos para casa.",
+      "kept": "Mudanças de estado devem saltar aos olhos sem esconder o conteúdo.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-split-flap-concourse-hero.webp"
+    },
+    {
+      "id": "challenger-cape",
+      "label": "Capa ajustável",
+      "verdict": "declined",
+      "lineage": "capa de seda transformada por cordões",
+      "thesis": "A interface muda de forma conforme Produtos são publicados.",
+      "palette": [
+        "#171717",
+        "#C49A45",
+        "#60666B"
+      ],
+      "materials": [
+        "seda fosca",
+        "costura",
+        "cordão"
+      ],
+      "viewport": "Um objeto domina a tela e muda de silhueta em cada estado.",
+      "case": "A transformação é expressiva, mas não ajuda a explorar doze Produtos ou comparar preços.",
+      "risk": "A metáfora de moda desvia do catálogo doméstico.",
+      "kept": "Uma transição de estado deve ter início, fim e consequência visíveis.",
+      "hero": "https://impeccable.style/worlds/cards/textiles-weave-drape-fashion-drawcord-transforming-cape-hero.webp"
+    },
+    {
+      "id": "challenger-cloud",
+      "label": "Borda iridescente",
+      "verdict": "declined",
+      "lineage": "cor na borda de uma nuvem",
+      "thesis": "Cor sutil aparece apenas nas bordas dos estados ativos.",
+      "palette": [
+        "#F8F8F4",
+        "#59626A",
+        "#A5CFC4",
+        "#CBA8C5"
+      ],
+      "materials": [
+        "branco fosco",
+        "faixa espectral"
+      ],
+      "viewport": "Um campo branco com objetos e pequenos sinais coloridos na borda.",
+      "case": "A contenção cromática é útil, mas o fenômeno atmosférico não explica Produtos ou suas ações.",
+      "risk": "A identidade ficaria abstrata demais para uma Loja.",
+      "kept": "Reservar cor forte para informação que muda.",
+      "hero": "https://impeccable.style/worlds/cards/clouds-storms-auroras-iridescent-cloud-edge-hero.webp"
+    },
+    {
+      "id": "challenger-console",
+      "label": "Console modular",
+      "verdict": "declined",
+      "lineage": "painel de ficção científica",
+      "thesis": "Botões coloridos e blocos articulados comandam o catálogo.",
+      "palette": [
+        "#090A0B",
+        "#B7A5DB",
+        "#E8B29F",
+        "#DCC569"
+      ],
+      "materials": [
+        "vidro preto",
+        "blocos planos"
+      ],
+      "viewport": "O primeiro quadro é dominado por controles e códigos.",
+      "case": "A ação é inequívoca, mas códigos e blocos competem com nomes, fotos e preços.",
+      "risk": "A Loja parece um terminal de operação.",
+      "kept": "Cada controle ativo precisa ter estado inconfundível.",
+      "hero": "https://impeccable.style/worlds/cards/pop-culture-shelf-elbow-panel-console-hero.webp"
+    },
+    {
+      "id": "challenger-sleeve",
+      "label": "Capa de catálogo",
+      "verdict": "declined",
+      "lineage": "capas de discos numeradas de fábrica",
+      "thesis": "Cada objeto ganha um número e uma capa de alto contraste.",
+      "palette": [
+        "#151515",
+        "#F4F2EA",
+        "#C64F42"
+      ],
+      "materials": [
+        "papel preto fosco",
+        "linhas finas"
+      ],
+      "viewport": "Objetos numerados têm destaque gráfico, com pouca informação visível à primeira leitura.",
+      "case": "A numeração é forte, mas esconder títulos ou preços prejudica a comparação.",
+      "risk": "A identidade vira enigma onde a tarefa pede clareza.",
+      "kept": "O identificador deve manter uma função coerente em toda a experiência.",
+      "hero": "https://impeccable.style/worlds/cards/brand-identity-canon-saville-catalog-sleeve-hero.webp"
+    }
+  ],
+  "reroll": {
+    "registers": [
+      "safer",
+      "bolder"
+    ]
+  },
+  "buildPath": {
+    "value": "comp",
+    "toggle": true
+  },
+  "canon": true,
+  "canonCard": {
+    "label": "Catálogo convencional",
+    "thesis": "Uma grade de Produtos clara, familiar e bem executada.",
+    "palette": [
+      "#FFFFFF",
+      "#222222",
+      "#3473C9"
+    ],
+    "materials": [
+      "grade limpa",
+      "fotografia de produto"
+    ],
+    "viewport": "Cabeçalho simples e cartões uniformes com imagem, título e preço.",
+    "risk": "A experiência é previsível e a marca tem pouca expressão própria.",
+    "comp": ".impeccable/mocks/decision/canon.png"
+  },
+  "steer": true
+}
