@@ -11,3 +11,7 @@ Use the five default triage roles as status strings. See `docs/agents/triage-lab
 ### Domain docs
 
 Use a single-context layout with root `CONTEXT.md` and `docs/adr/`. See `docs/agents/domain.md`.
+
+## Commit conventions
+
+Use Conventional Commits and follow the repository's commit boundaries. See `docs/agents/commit-conventions.md`.
