@@ -6,6 +6,7 @@
     "dev": "pnpm --filter @casa-lira/contracts build && pnpm db:migrate && pnpm --parallel --filter @casa-lira/api --filter @casa-lira/web dev",
     "build": "pnpm -r build",
     "test": "pnpm --filter @casa-lira/api test",
+    "test:coverage": "pnpm --filter @casa-lira/api test:coverage",
     "db:generate": "pnpm --filter @casa-lira/api db:generate",
     "db:migrate": "pnpm --filter @casa-lira/api db:migrate",
     "seed": "pnpm db:migrate && pnpm --filter @casa-lira/api seed",

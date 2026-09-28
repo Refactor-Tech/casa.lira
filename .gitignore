@@ -5,3 +5,5 @@ apps/api/catalog.sqlite*
 .impeccable/questions/
 .impeccable/review/
 .impeccable/build/
+
+apps/api/coverage/
