@@ -5,6 +5,8 @@ import { join } from 'node:path'
 import { test } from 'node:test'
 import type { Product, ProductInput } from '@casa-lira/contracts'
 import { buildApp } from './app.js'
+import { createProductCatalog } from './application/product-catalog.js'
+import { createSqliteProductRepository } from './adapters/persistence/sqlite-product-repository.js'
 import { createDatabase } from './db.js'
 
 const migration = readFileSync(new URL('../drizzle/0000_natural_aaron_stack.sql', import.meta.url), 'utf8')
@@ -18,7 +20,8 @@ const validInput: ProductInput = {
 function setup() {
   const { sqlite, db } = createDatabase(':memory:')
   sqlite.exec(migration)
-  const app = buildApp(db)
+  const repository = createSqliteProductRepository(db)
+  const app = buildApp(createProductCatalog(repository))
   return { app, sqlite }
 }
 
